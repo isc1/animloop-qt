@@ -37,3 +37,9 @@ Makefile*
 # QtCtreator CMake
 CMakeLists.txt.user*
 
+# isc1 changes
+*.pro.user
+Thumbs.db
+*.conf
+doxygen
+/.project
