@@ -1,5 +1,7 @@
 # animloop-qt
 
+![alt text](animloop-qt-1.jpg "animloop-qt screenshot")
+
 **This code is a simple example of one way to do a minimal QGraphicsScene animation in Qt.  This does not use QML.**
 
 In this example, a circle moves downwards and to the right.  The blue box depicts the boundary of the QGraphicsScene, and the window dimensions are about what the QGraphicsView dimensions are.  A 60ms signal/slot timer is used to fire off each tick of the animation loop.  
