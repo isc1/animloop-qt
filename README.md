@@ -14,7 +14,7 @@ This code is copyright 2017 isc1 and is free for anyone to use under the MIT lic
 
 **THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it.**
 
-If you are new to Qt, try these links (which are unaffiliated with this project):
+If you are new to Qt, try the following links.  (None of these links are affiliated with this repository or it's author in any way.)
 * [https://wiki.qt.io/Basic_Qt_Programming_Tutorial](https://wiki.qt.io/Basic_Qt_Programming_Tutorial) nice tut with screenshots!
 
 * [https://ics.com/blog/getting-started-qt-and-qt-creator-windows](https://ics.com/blog/getting-started-qt-and-qt-creator-windows) nice walkthrough with screenshots by ics, (totally unrelated to isc1)
@@ -23,6 +23,6 @@ If you are new to Qt, try these links (which are unaffiliated with this project)
 
 * [https://doc.qt.io/qt-5/gettingstarted.html](https://doc.qt.io/qt-5/gettingstarted.html) Qt 5 getting started info
 
-Finally, if you are getting started with Qt, you owe it to yourself to check out VoidRealm's tutorial videos.  Many of them are older, so they might have some outdated info, but his videos are excellent, and he is still making Qt videos which are more current, including the new QML declarative stuff!
+Finally, if you are getting started with Qt, you owe it to yourself to check out VoidRealms tutorial videos.  Many of them are older, so they might have some outdated info, but his videos are excellent, and he is still making Qt videos which are more current, including the new QML declarative stuff! (VoidRealms has nothing to do with isc1)
 
 * [https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63](https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63)
