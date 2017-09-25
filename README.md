@@ -10,7 +10,7 @@ For beginners, play with the setGeometry values for the scene and the view in ma
 
 Another fun task for beginners would be to make the circle "bounce" off the scene boundary, so that it stays within the blue box, or add other circles, or otherwise change the animation somehow.
 
-This code is copyright 2017 isc1 and is free for anyone to use under the MIT license.  This code was written on Desktop Qt 5.9.0 MinGW 32-bit (Windows), and might not build successfully on later versions of Qt, or on other platforms such as Linux or MacOS, without modification.
+_This code is copyright 2017 isc1 and is free for anyone to use under the MIT license.  This code was written on Desktop Qt 5.9.0 MinGW 32-bit (Windows), and might not build successfully on later versions of Qt, or on other platforms such as Linux or MacOS, without modification._
 
 THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it.
 -----
@@ -21,6 +21,6 @@ If you are new to Qt, try the following links.  (None of these links are affilia
 * [https://doc.qt.io/qtcreator/creator-getting-started.html](https://doc.qt.io/qtcreator/creator-getting-started.html) official getting started page
 * [https://doc.qt.io/qt-5/gettingstarted.html](https://doc.qt.io/qt-5/gettingstarted.html) Qt 5 getting started info
 
-_Finally, if you are getting started with Qt, you owe it to yourself to check out VoidRealms tutorial videos.  Many of them are older, so they might have some outdated info, but his videos are excellent, and he is still making Qt videos which are more current, including the new QML declarative stuff! (VoidRealms has nothing to do with isc1)_
+Finally, if you are getting started with Qt, you owe it to yourself to check out VoidRealms tutorial videos.  Many of them are older, so they might have some outdated info, but his videos are excellent, and he is still making Qt videos which are more current, including the new QML declarative stuff! (VoidRealms has nothing to do with isc1)
 
 * [https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63](https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63)
