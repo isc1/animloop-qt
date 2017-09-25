@@ -69,30 +69,3 @@ void MainWindow::gameTick()
     mEllipseItem->setY(mEllipseItem->y()+1);
     mGraphicsScene->advance();
 }
-
-/// TAKE OUT THIS RANDOM STUFF IF YOU ARE NOT GOING TO USE IT:
-///
-///
-
-// random:  returns a random int between 0 and "biggest" inclusive
-// for example random(100) returns an int between 0 and 100
-int MainWindow::random(int biggest)
-{
-    return qrand() % (biggest + 1);
-}
-
-// randomRange: return a number between smallest and biggest
-// you can supply positive or negative ints, just make sure smallest < biggest
-// for example calling it with 10,20 will give you a random int betwen 10 and 20
-// supplying -30,20 will give a random int between -30 and 20
-int MainWindow::randomRange(int smallest, int biggest)
-{
-    if ( smallest < biggest)
-    {
-        return (qrand() % (biggest - (smallest + 1))) + smallest;
-    }
-    else
-    {
-        return 0;
-    }
-}

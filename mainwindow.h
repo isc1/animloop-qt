@@ -18,8 +18,6 @@ private:
     QGraphicsScene *mGraphicsScene;
     QGraphicsEllipseItem *mEllipseItem;
     void startGameLoopTimer();
-    int random(int biggest);
-    int randomRange(int smallest, int biggest);
     QTimer mTimer;
     long mUpdateIntervalMS;
 

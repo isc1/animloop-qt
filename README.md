@@ -12,4 +12,4 @@ Another fun task for beginners would be to make the circle "bounce" off the scen
 
 This code is copyright 2017 isc1 and is free for anyone to use under the MIT license.  This code was written on Desktop Qt 5.9.0 MinGW 32-bit, and may not build on later versions of Qt without modification.
 
-THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it. This example project could be used by newer programmers to play around with to learn a little more about Qt, and of course, the excellent example projects that are included with the official Qt SDK distro are also great learning tools, not to be ignored.
+**THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it.**
