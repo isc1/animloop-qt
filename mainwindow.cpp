@@ -77,9 +77,10 @@ void MainWindow::gameTick()
     // or you could make the circle change direction somehow when x or y get outside of
     // the range of 0 to 400.  Or think of some other way the circle should move!
 
+
     // you can uncomment the following line to produce console output every gametick.
-    // this will generate around 16 messages per second at 60ms gametick.
     //qDebug() << "MainWindow::gameTick(): invoked\n";
+    // ...this will generate around 16 messages per second at 60ms gametick.
 
     mEllipseItem->setX(mEllipseItem->x()+1);
     mEllipseItem->setY(mEllipseItem->y()+1);
