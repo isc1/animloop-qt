@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QGraphicsView>
+#include <QTimer>
 
 class MainWindow : public QMainWindow
 {
@@ -10,6 +12,19 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = 0);
     ~MainWindow();
+
+private:
+    QGraphicsView *mGraphicsView;
+    QGraphicsScene *mGraphicsScene;
+    QGraphicsEllipseItem *mEllipseItem;
+    void startGameLoopTimer();
+    int random(int biggest);
+    int randomRange(int smallest, int biggest);
+    QTimer mTimer;
+    long mUpdateIntervalMS;
+
+private slots:
+    void gameTick();
 };
 
 #endif // MAINWINDOW_H
