@@ -79,7 +79,7 @@ void MainWindow::gameTick()
 
     // you can uncomment the following line to produce console output every gametick.
     //qDebug() << "MainWindow::gameTick(): invoked\n";
-    // ...this will generate around 16 messages per second at 60ms gametick.
+    //  ...this will generate around 16 messages per second at 60ms gametick.
 
     mEllipseItem->setX(mEllipseItem->x()+1);
     mEllipseItem->setY(mEllipseItem->y()+1);
