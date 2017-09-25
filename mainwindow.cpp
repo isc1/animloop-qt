@@ -72,7 +72,7 @@ void MainWindow::gameTick()
     // if you want to change what the animation does, you can do that here, or add new
     // functions (methods) and call them from here.
 
-    // Change this code to make the circle stay within the blue box!  You could have
+    // Change this code to make the circle stay within the blue box! :-D You could have
     // the circle just stop moving when it reaches the edge of the scene at x,y == 400,400
     // or you could make the circle change direction somehow when x or y get outside of
     // the range of 0 to 400.  Or think of some other way the circle should move!
