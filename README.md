@@ -12,7 +12,8 @@ Another fun task for beginners would be to make the circle "bounce" off the scen
 
 This code is copyright 2017 isc1 and is free for anyone to use under the MIT license.  This code was written on Desktop Qt 5.9.0 MinGW 32-bit (Windows), and might not build successfully on later versions of Qt, or on other platforms such as Linux or MacOS, without modification.
 
-**_THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it._**
+THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it.
+-----
 
 If you are new to Qt, try the following links.  (None of these links are affiliated with this repository or it's author in any way.)
 * [https://wiki.qt.io/Basic_Qt_Programming_Tutorial](https://wiki.qt.io/Basic_Qt_Programming_Tutorial) nice tut with screenshots!
