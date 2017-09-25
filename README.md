@@ -16,7 +16,7 @@ THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comm
 -----
 
 If you are new to Qt, try the following links.  (None of these links are affiliated with this repository or it's author in any way.)
-* [https://wiki.qt.io/Basic_Qt_Programming_Tutorial](https://wiki.qt.io/Basic_Qt_Programming_Tutorial) nice tut with screenshots!
+* [https://wiki.qt.io/Basic_Qt_Programming_Tutorial](https://wiki.qt.io/Basic_Qt_Programming_Tutorial) nice tut with screenshots! Appears current as of Fall 2017.
 * [https://ics.com/blog/getting-started-qt-and-qt-creator-windows](https://ics.com/blog/getting-started-qt-and-qt-creator-windows) nice walkthrough with screenshots by ics, (totally unrelated to isc1)
 * [https://doc.qt.io/qtcreator/creator-getting-started.html](https://doc.qt.io/qtcreator/creator-getting-started.html) official getting started page
 * [https://doc.qt.io/qt-5/gettingstarted.html](https://doc.qt.io/qt-5/gettingstarted.html) Qt 5 getting started info
