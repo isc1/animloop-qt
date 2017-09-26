@@ -20,7 +20,4 @@ If you are new to Qt, try the following links.  (None of these links are affilia
 * [https://wiki.qt.io/Basic_Qt_Programming_Tutorial](https://wiki.qt.io/Basic_Qt_Programming_Tutorial) nice tut with screenshots!
 * [https://doc.qt.io/qtcreator/creator-getting-started.html](https://doc.qt.io/qtcreator/creator-getting-started.html) official getting started page
 * [https://doc.qt.io/qt-5/gettingstarted.html](https://doc.qt.io/qt-5/gettingstarted.html) Qt 5 getting started info
-
-Finally, if you are getting started with Qt, you owe it to yourself to check out VoidRealms tutorial videos.  Many of them are older, so they might have some outdated info, but his videos are excellent, and he is still making Qt videos which are more current, including the new QML declarative stuff! (VoidRealms has nothing to do with isc1)
-
-* [https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63](https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63)
+* [https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63](https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63) Nice Qt video library, some older videos have outdated info, however.
