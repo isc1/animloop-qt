@@ -7,6 +7,8 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
+    // MainWindow object constructor code
+
     // specify app window geometry. 1920x1080 screen rez yields a 0.56 pixel ratio
     setGeometry(56,100,600,600);
 
