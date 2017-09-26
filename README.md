@@ -4,9 +4,9 @@
 
 **This code is a simple example of one way to do a minimal QGraphicsScene animation in Qt.  This does not use QML.**
 
-In this example, a circle moves downwards and to the right.  The blue box depicts the boundary of the QGraphicsScene, and the window dimensions are about what the QGraphicsView dimensions are.  A 60ms signal/slot timer is used to fire off each tick of the animation loop.  The intention here is to have the minimal amount of code that actually does a basic, fun task in Qt, in just a few files, that a beginning programmer can easily understand.
+In this example, a circle moves downwards and to the right.  The blue box depicts the boundary of the QGraphicsScene, and the window dimensions are the same as the QGraphicsView dimensions.  A 60ms signal/slot timer is used to fire off each tick of the animation loop.  This code has been kept simple in a small number of files to make it beginner-friendly.
 
-For beginners, try playing with the setGeometry values for the scene and the view in mainwindow.cpp to get an idea of how they relate to each other, when scrollbars appear, etc.  What happens when you make the scene bigger than the view?  What happens when you make the window smaller than the view, and/or the scene?  Change the values and see what happens.  Also notice that the circle will still be rendered in the view, even when it leaves the dimensions the scene object had when it was created.
+For beginning programmers, try playing with the setGeometry values for the scene and the view in mainwindow.cpp to get an idea of how they relate to each other, when scrollbars appear, etc.  What happens when you make the scene bigger than the view?  What happens when you make the window smaller than the view, and/or the scene?  Change the values and see what happens.  Also notice that the circle will still be rendered in the view, even when it leaves the dimensions the scene object had when it was created.
 
 Another fun task for beginners would be to make the circle "bounce" off the scene boundary, so that it stays within the blue box, or add other moving circles, or otherwise change the animation somehow.
 

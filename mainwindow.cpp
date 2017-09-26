@@ -4,11 +4,9 @@
 #include <QGraphicsEllipseItem>
 #include <QDebug>
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(QWidget *parent) // MainWindow object constructor code
     : QMainWindow(parent)
-{
-    // MainWindow object constructor code
-
+{    
     // specify app window geometry. 1920x1080 screen rez yields a 0.56 pixel ratio
     setGeometry(56,100,600,600);
 
@@ -46,9 +44,8 @@ MainWindow::MainWindow(QWidget *parent)
     startGameLoopTimer();
 }
 
-MainWindow::~MainWindow()
+MainWindow::~MainWindow() // MainWindow object destructor code
 {
-    // this is the destructor code for the MainWindow object
     if (mGraphicsView != NULL)
     {
         delete mGraphicsView;
