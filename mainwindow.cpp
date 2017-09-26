@@ -8,15 +8,15 @@ MainWindow::MainWindow(QWidget *parent) // MainWindow object constructor code
     : QMainWindow(parent)
 {    
     // specify app window geometry. 1920x1080 screen rez yields a 0.56 pixel ratio
-    setGeometry(56,100,600,600);
+    setGeometry(56,100,800,800);
 
     // set up the scene
     // traditionally, member objects start with the letter 'm'
-    mGraphicsScene = new QGraphicsScene(0, 0, 400, 400);
+    mGraphicsScene = new QGraphicsScene(0, 0, 600, 600);
 
-    // set up the view
+    // set up the view, centering it in the window
     mGraphicsView = new QGraphicsView(mGraphicsScene, this);
-    mGraphicsView->setGeometry(0, 0, 600, 600);
+    mGraphicsView->setGeometry(50, 50, 700, 700);
     mGraphicsView->setViewportUpdateMode(QGraphicsView::BoundingRectViewportUpdate);
     mGraphicsView->setDragMode(QGraphicsView::ScrollHandDrag);
 
@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget *parent) // MainWindow object constructor code
     mGraphicsScene->addItem(mEllipseItem);
 
     // how often we update the scene, in milliseconds:
-    mUpdateIntervalMS = 60;
+    mUpdateIntervalMS = 10;
 
     // start the signal/slot timer, which invokes gameTick() every mUpdateIntervalMS milliseconds
     startGameLoopTimer();
@@ -72,15 +72,16 @@ void MainWindow::gameTick()
     // functions (methods) and call them from here.
 
     // Change this code to make the circle stay within the blue box! :-D You could have
-    // the circle just stop moving when it reaches the edge of the scene at x,y == 400,400
+    // the circle just stop moving when it reaches the edge of the scene at x,y == 600,600
     // or you could make the circle change direction somehow when x or y get outside of
-    // the range of 0 to 400.  Or think of some other way the circle should move!
+    // the range of 0 to 600.  Or think of some other way the circle should move!
 
     // you can uncomment the following line to produce console output every gametick.
     //qDebug() << "MainWindow::gameTick(): invoked\n";
-    //  ...this will generate around 16 messages per second at 60ms gametick.
+    //  ...this will generate around 100 messages per second at 10ms gametick.
 
-    mEllipseItem->setX(mEllipseItem->x()+1);
-    mEllipseItem->setY(mEllipseItem->y()+1);
+    qreal speed = 0.9;
+    mEllipseItem->setX(mEllipseItem->x()+speed);
+    mEllipseItem->setY(mEllipseItem->y()+speed);
     mGraphicsScene->advance();
 }
